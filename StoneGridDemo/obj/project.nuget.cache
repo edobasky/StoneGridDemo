@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "baFNO/zXUbdyB+06oVL6wO0dJd5Qq4/wbIjT1yl5N3KYBNhNvaxJdnXgo50trs1Wof81l355FtSOGwFs85FO+g==",
+  "dgSpecHash": "XExdr2MK1HU461i2qF0pVACXAGUSI65NEeKseYryK/9NfIcxTMozcdDhF4W/gSIAuybaHe9SEIMSlqaMnaJwmA==",
   "success": true,
   "projectFilePath": "C:\\Users\\hp\\Desktop\\dotnetMVC\\StoneGridApp\\StoneGridDemo\\StoneGridDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\hp\\.nuget\\packages\\json-index\\0.1.2\\json-index.0.1.2.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.12\\microsoft.aspnetcore.mvc.razor.extensions.5.0.12.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\5.0.12\\microsoft.aspnetcore.mvc.razor.runtimecompilation.5.0.12.nupkg.sha512",
@@ -133,16 +132,5 @@
     "C:\\Users\\hp\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'json-index 0.1.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
-      "libraryId": "json-index",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  "logs": []
 }

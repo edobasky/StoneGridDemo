@@ -22,9 +22,92 @@ namespace StoneGridDemo.Controllers
         }
 
         // GET - CREATE
-        public IActionResult Create()
+        public IActionResult CreateView()
         {
             return View();
         }
+
+        // create -POST
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(Category item)
+        {
+            if(ModelState.IsValid)
+            {
+                _db.Categories.Add(item);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(item);
+           
+        }
+
+        // GET -EDIT
+        public IActionResult Edit(int? id)
+        {
+            if(id == null  || id == 0)
+            {
+                return NotFound();
+            }
+            var obj = _db.Categories.Find(id);
+
+            if (obj == null)
+            {
+                return NotFound();
+            }
+            return View(obj);
+        }
+
+
+        // create -POST
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(Category item)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Categories.Update(item);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(item);
+
+        }
+
+        // GET -EDIT
+        public IActionResult Delete(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+            var obj = _db.Categories.Find(id);
+
+            if (obj == null)
+            {
+                return NotFound();
+            }
+            return View(obj);
+        }
+
+
+        // create -POST
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeletePost(int? id)
+        {
+            var item = _db.Categories.Find(id);
+           
+            if (item == null)
+            {
+                return NotFound();
+            }
+                _db.Categories.Remove(item);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            
+
+        }
     }
 }
+

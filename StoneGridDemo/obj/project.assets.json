@@ -11,15 +11,6 @@
           "lib/netstandard2.0/Humanizer.dll": {}
         }
       },
-      "json-index/0.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/net45/JsonIndex.dll": {}
-        },
-        "runtime": {
-          "lib/net45/JsonIndex.dll": {}
-        }
-      },
       "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -2079,18 +2070,6 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
-      ]
-    },
-    "json-index/0.1.2": {
-      "sha512": "v0dU3/3eNyl5EaTVU+GLp69z3q2bVRKROMCTWHg6Vfipc5Ms/JJMrbT6/Oo5lZW1I/+sfWiCL+7iv2UXYvY4vQ==",
-      "type": "package",
-      "path": "json-index/0.1.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "json-index.0.1.2.nupkg.sha512",
-        "json-index.nuspec",
-        "lib/net45/JsonIndex.dll"
       ]
     },
     "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
@@ -7266,8 +7245,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 5.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.5",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
-      "json-index >= 0.1.2"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2"
     ]
   },
   "packageFolders": {
@@ -7332,10 +7310,6 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[5.0.2, )"
-          },
-          "json-index": {
-            "target": "Package",
-            "version": "[0.1.2, )"
           }
         },
         "imports": [
@@ -7359,17 +7333,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'json-index 0.1.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
-      "libraryId": "json-index",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  }
 }
