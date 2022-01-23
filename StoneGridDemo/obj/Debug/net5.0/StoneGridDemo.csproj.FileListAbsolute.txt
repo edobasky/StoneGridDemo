@@ -434,3 +434,7 @@ C:\Users\hp\Desktop\dotnetMVC\StoneGridApp\StoneGridDemo\obj\Debug\net5.0\Razor\
 C:\Users\hp\Desktop\dotnetMVC\StoneGridApp\StoneGridDemo\obj\Debug\net5.0\Razor\Views\Category\Edit.cshtml.g.cs
 C:\Users\hp\Desktop\dotnetMVC\StoneGridApp\StoneGridDemo\obj\Debug\net5.0\Razor\Views\Category\Delete.cshtml.g.cs
 C:\Users\hp\Desktop\dotnetMVC\StoneGridApp\StoneGridDemo\obj\Debug\net5.0\Razor\Views\Category\CreateView.cshtml.g.cs
+C:\Users\hp\Desktop\dotnetMVC\StoneGridApp\StoneGridDemo\obj\Debug\net5.0\Razor\Views\ApplicationType\Delete.cshtml.g.cs
+C:\Users\hp\Desktop\dotnetMVC\StoneGridApp\StoneGridDemo\obj\Debug\net5.0\Razor\Views\ApplicationType\Edit.cshtml.g.cs
+C:\Users\hp\Desktop\dotnetMVC\StoneGridApp\StoneGridDemo\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\hp\Desktop\dotnetMVC\StoneGridApp\StoneGridDemo\obj\Debug\net5.0\Razor\Views\Product\Upsert.cshtml.g.cs

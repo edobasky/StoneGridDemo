@@ -1,14 +1,14 @@
-﻿@model IEnumerable<ApplicationType>
+﻿@model IEnumerable<Product>
 
-    <div class="container p-3">
+   <div class="container p-3">
        <div class="row pt-4">
            <div class="col-6">
-               <h2 class="text-primary">ApplicationType List</h2>
+               <h2 class="text-primary">Product List</h2>
            </div>
            <div class="col-6 text-right">
-               <a asp-controller="ApplicationType" asp-action="Create" class="btn btn-primary">
-                   <i class="fas fa-plus"></i> &nbsp; Create New Application Type
-                   </a>         
+               <a  asp-action="UpSert" class="btn btn-primary">
+                  <i class="fas fa-plus"></i> &nbsp; Create New Product
+                   </a>        
            </div>
        </div>
        <br><br />
@@ -19,9 +19,11 @@
             <thead>
                 <tr>
                     <th>
-                        ApplicationType Name
+                        Product Name
                     </th>
-                    
+                    <th>
+                        Price
+                    </th>       
                     <th></th>
                 </tr>
             </thead>
@@ -30,13 +32,13 @@
                 {
                    <tr>
                         <td width="50%">@item.Name</td>
-                        
+                        <td width="30%">@item.Price</td>
                         <td class="text-center">
                             <div class="w-75 btn-group" role="group">
-                                <a asp-controller="ApplicationTypeController" asp-route-Id="@item.Id" asp-action="Edit" class="btn btn-primary mx-2">
+                                <a asp-route-Id="@item.Id" asp-action="UpSert" class="btn btn-primary mx-2">
                                     <i class="far fa-edit"></i>
                                 </a>
-                                <a asp-controller="ApplicationTypeController" asp-route-Id="@item.Id" asp-action="Delete" class="btn btn-danger mx-2">
+                                <a asp-route-Id="@item.Id" asp-action="Delete" class="btn btn-danger mx-2">
                                     <i class="fas fa-trash"></i>
                                 </a>
                             </div>
@@ -47,6 +49,6 @@
         </table>
     }else
     {
-        <p>No Application exists. </p>
+        <p>No product exists. </p>
     }
 </div>

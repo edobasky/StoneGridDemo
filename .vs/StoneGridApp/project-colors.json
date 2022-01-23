@@ -1,16 +1,11 @@
 {
   "Version": 1,
   "ProjectMap": {
-    "166a911b-3909-4b02-b0a1-cfe74e0c5902": {
-      "ProjectGuid": "166a911b-3909-4b02-b0a1-cfe74e0c5902",
-      "DisplayName": "StoneGrid",
-      "ColorIndex": 0
-    },
     "79d2ebe4-e7b9-4c3e-b340-3fdcf28af0cc": {
       "ProjectGuid": "79d2ebe4-e7b9-4c3e-b340-3fdcf28af0cc",
       "DisplayName": "StoneGridDemo",
-      "ColorIndex": 1
+      "ColorIndex": 0
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 1
 }
